@@ -1,23 +1,24 @@
 body {background-color: beige;}
 
-h1 {
+h1, h2 {
   color: grey;
   text-align: center;
 }
 
-h2.intro {
-  color: lightgrey;
+.amazing {
+  font-style: italic;
+  color: brown;
   text-align: center;
+  text-decoration: underline;
 }
 
-p.intro {
-  text-align: center;
-  font-family: sans-serif;
+.meh {
+  text-decoration: line-through;
 }
 
-img.intro {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.notawesome {
+  font-family: fantasy;
+  text-align: center;
+  color: red;
+  font-weight: bold;
 }
